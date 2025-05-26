@@ -1,0 +1,1 @@
+#(T and F) or (T and T) and (F and F) = F or T and F = False
