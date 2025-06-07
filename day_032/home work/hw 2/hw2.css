@@ -1,0 +1,24 @@
+
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;  
+}
+
+#li1{
+    color: red;
+    font-size: 20px;
+}
+
+#li2{
+    color: blue;
+    font-size: 20px;
+}
+
+#li3{
+    color: green;
+    font-size: 20px;
+}

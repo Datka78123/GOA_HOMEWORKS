@@ -1,0 +1,9 @@
+#out{
+    list-style-position: inside;
+    list-style-type: lower-alpha;
+}
+
+#in{
+    list-style-position: outside;
+    list-style-type: upper-roman;
+}

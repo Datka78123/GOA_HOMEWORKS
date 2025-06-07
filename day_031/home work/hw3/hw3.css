@@ -1,0 +1,13 @@
+
+
+a{
+    color: rgb(255, 86, 24);
+}
+
+a:visited{
+    color: rgb(140, 0, 0);
+}
+
+a:hover{
+    color: blue;
+}
