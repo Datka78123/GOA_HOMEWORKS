@@ -1,0 +1,10 @@
+html{
+    background:linear-gradient(rgba(48, 43, 204, 0.8),rgba(43, 82, 204, 0.8));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.8);
+    background-color:#6a72a6;
+}
