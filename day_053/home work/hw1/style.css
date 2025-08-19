@@ -1,0 +1,19 @@
+.para1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.para2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+}
+
+.para3 {
+    font-family: "Georgia", serif;
+    font-weight: 300;
+}
+
+.para4 {
+    font-family: "Courier New", monospace;
+    font-weight: 800;
+}
