@@ -1,0 +1,53 @@
+:root{
+    background-color: aqua;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 200px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box form{
+    display: flex;
+    flex-direction: column;
+}
+
+.box form h3{
+    color: #3eacac;
+    font-size: 25px;
+}
+
+.input{
+    height: 40px;
+    padding: 10px;
+    margin: 15px;
+    border-color: rgb(165, 165, 165);
+    border-width: 1px;
+}
+
+.btn{
+    height: 40px;
+    width: 290px;
+    margin: auto;
+    padding: 10px;
+    background-color: #3eacac;
+    border: none;
+    color: aliceblue;
+}
+
+.input:focus{
+    outline: none;
+}
