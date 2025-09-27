@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>rem vs em</title>
+        <style>
+            html {
+                font-size: 16px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            p {
+                font-size: 1.5rem;
+            }
+            button {
+                font-size: 1rem;
+            }
+
+            .em-example {
+                font-size: 20px;
+            }
+            .em-example span {
+                font-size: 2em;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>ეს არის h1 (2rem)</h1>
+        <p>ეს არის p (1.5rem)</p>
+        <button>Button (1rem)</button>
+
+        <div class="em-example">
+            ეს არის div 20px
+            <span>ეს არის span 2em (40px)</span>
+        </div>
+    </body>
+</html>
