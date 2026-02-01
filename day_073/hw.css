@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+
+.card {
+    width: 150px;
+    height: 150px;
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    transition: transform 0.6s;
+}
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+
+.moving-box {
+    width: 100px;
+    height: 100px;
+    background-color: #e74c3c;
+    position: relative;
+    animation: moveY 2s infinite alternate;
+    margin-bottom: 40px;
+}
+
+@keyframes moveY {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 100px;
+    }
+}
+
+
+@keyframes bgChange {
+    0% {
+        background-color: #f1c40f;
+    }
+    25% {
+        background-color: #e67e22;
+    }
+    50% {
+        background-color: #1abc9c;
+    }
+    75% {
+        background-color: #9b59b6;
+    }
+    100% {
+        background-color: #f1c40f;
+    }
+}
+body.animate-bg {
+    animation: bgChange 5s infinite;
+}
+
+
+.progress-container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.progress-bar {
+    width: 0%;
+    height: 20px;
+    background-color: #2ecc71;
+    border-radius: 10px;
+    animation: grow 5s forwards;
+}
+@keyframes grow {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+
+.slide-text {
+    font-size: 24px;
+    font-weight: bold;
+    transform: translateX(-100%);
+    animation: slideIn 3s forwards;
+}
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

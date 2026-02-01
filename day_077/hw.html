@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Level 77 TailwindCSS</title>
+<!-- TailwindCSS CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-6 space-y-6">
+
+<!--
+1 & 2) TailwindCSS explanation
+- TailwindCSS არის utility-first CSS framework, სადაც მაგ: სტილებს დივზე პირდაპირ კლასებით ადებ.
+- განსხვავება ჩვეულებრივი CSS-სგან:
+    * ჩვეულებრივი CSS: წერ _separate_ სტილს selector-ებით (class, id, tag)
+    * Tailwind: სტილებს კლასების სახით დებს HTML-ში (მაგ: bg-blue-500, text-white, p-4)
+- ყოველ სტილს აქვს predefined სახელები და responsive variants
+-->
+
+<!--
+5) დივი: ფონური ლურჯი, ტექსტი თეთრი, ტექსტი ცენტრში
+-->
+<div class="bg-blue-500 text-white text-center p-4 rounded">
+    This is a blue div with centered white text
+</div>
+
+<!--
+6) სამი დივი ერთმანეთისგან დაშორებული 16px (gap/margin), padding 8px
+-->
+<div class="flex flex-col space-y-4">
+    <div class="bg-gray-200 p-2 rounded">Div 1</div>
+    <div class="bg-gray-300 p-2 rounded">Div 2</div>
+    <div class="bg-gray-400 p-2 rounded">Div 3</div>
+</div>
+<!-- note: space-y-4 = vertical gap 16px, p-2 = 8px padding -->
+
+<!--
+7) დივი: background მწვანე, border 4px შავი, text თეთრი, padding 12px
+-->
+<div class="bg-green-500 border-4 border-black text-white p-3 rounded">
+    Green div with black border and white text
+</div>
+
+<!--
+3 & 4 Tailwind utility classes we used and explanations:
+- bg-blue-500 / bg-gray-200 / bg-green-500 → background color
+- text-white → text color
+- text-center → horizontal text alignment
+- p-2 / p-3 / p-4 → padding (0.5rem, 0.75rem, 1rem)
+- rounded → border-radius
+- border-4 → border thickness 4px
+- border-black → border color black
+- flex → flex container
+- flex-col → flex direction column
+- space-y-4 → vertical gap 16px between elements
+- space-y-6 → vertical gap 24px between blocks (body spacing)
+-->
+
+</body>
+</html>

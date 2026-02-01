@@ -1,0 +1,101 @@
+.responsive-bg {
+    background-color: green;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 599px) {
+    .responsive-bg {
+        background-color: blue;
+    }
+}
+
+.responsive-text {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 499px) {
+    .responsive-text {
+        font-size: 20px;
+    }
+}
+
+.responsive-box {
+    background-color: orange;
+    width: 400px;
+    height: 150px;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 150px;
+    color: white;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 1023px) {
+    .responsive-box {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .responsive-box {
+        width: 200px;
+    }
+}
+
+.results-summary {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.summary-header h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.score-box {
+    background-color: hsl(252, 100%, 67%);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.summary-details .category {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .results-summary {
+        padding: 15px;
+    }
+    .summary-header h1 {
+        font-size: 20px;
+    }
+    .score-box {
+        padding: 15px;
+    }
+    button {
+        padding: 12px;
+    }
+}
